@@ -1,0 +1,55 @@
+Bash
+****  
+  Do all these tasks using bash script on the terminal 
+
+  1. Use the terminal to navigate to your desktop location 
+  
+  2. Create a folder called BashPractice on your desktop 
+
+  3. Create another folder called BashTest inside of the BashPractice folder 
+
+  4. Create a text file called myTextFile.txt inside of the BashPractice folder. 
+
+  5. Add the text "Hello bash" on the text file your created above using the "echo" command. 
+cc
+  6. Rename myTextFile.txt to myTextPractice.txt
+
+  7. Change the permission of myTextPractice.txt file to 776. 
+
+  8. Delete the BashTest folder along with the text file inside it 
+
+Git
+*** 
+ 
+  1. Create a new repo on your github account named gitPractice
+
+  2. Clone that project to your desktop using the Github desktop application 
+
+  3. Create a new folder called "pages" inside of the project you cloned 
+
+  4. Create a new file called "index.htm" inside the "pages" folder
+    - Add basic HTML with a title  
+
+  5. Commit the changes you have made so far 
+
+  6. Push the changes to Github 
+
+  7. Fork this project from evangadi's account  
+    https://github.com/evangadi/claSep29th 
+
+  8. Clone it to your local machine 
+
+  9. Add a new html file with your name 
+    eg. abebe.html
+    - Add basic HTML on it with your name as a title  
+
+  10. Commit the changes 
+
+  11. Push the changes to the repo you forked 
+
+  12. Send me a pull request from your github account 
+    - The pull request tab can be found at the top of your repo  
+
+
+   
+

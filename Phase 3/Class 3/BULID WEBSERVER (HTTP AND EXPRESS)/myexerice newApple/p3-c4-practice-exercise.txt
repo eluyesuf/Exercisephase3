@@ -1,0 +1,20 @@
+Question 1: Use the "http" module for the questions below  
+
+  Create two modules called my "randomNumber" and "myWebServer". The randomNumber module has a function called random(). The random function just returns a random number when it gets executed. 
+    
+    a. Inside of your myWebServer module, create a web server which listens to requests on port 1234.  
+      - Send a request to port 1234 and double check if the browser is expecting a response 
+
+    b. Inside of your myWebServer module, write your request listener function as a callback inside of the server you created above. 
+      - This function should return a text message called "Request received and processed" to the browser. 
+
+    c. Import your "randomNumber" module inside of your "myWebServer" module. Generate a random number using that function and return the generated number to the client browser when request is sent to port 1234. 
+
+    d. Create a new folder called "static" inside of your project. Add the Apple html clone inside of this folder. Add a sample "about.html" page inside of your Apple clone folder.
+      - Modify your request listener function in a way it would serve the "about.html" page when users request it on the browser. 
+
+      - Modify your listener function in a way that it serves any of the pages inside of your "static" folder when requested.  
+      
+
+Question 2: Solve the questions above using the Express module   
+

@@ -1,0 +1,31 @@
+Node Modules practice exercise
+****************************** 
+
+Question 1
+**********
+
+  Create a module called "myfirst" and console the text "My first module" in side it. Run the module and see the out put on your terminal. 
+    - Write a function called "myMultiplier" inside of your module. This function takes a single number as an argument and returns a value that is multiplied by 2. 
+
+    - Execute the function inside of the module. Pass the number 5 to the function. 
+      - Save the returned value in a variable and display it on the console. 
+
+    - Export your "myMultiplier" function so that other modules can use it 
+
+Question 2
+**********
+
+  Create another module called "mysecond". Add another function in this module with the same name as above (myMultiplier). This function multiplies the argument by 3 instead of 2 and returns the value. 
+    - Export your "myMultiplier" function so that other modules can use it 
+
+    - Create another module called "myCollector". Import both functions from "myfirst" and "mysecond" modules inside of your "myCollector" module. 
+
+    - Pass the value 5 to the functions that are imported and display the out puts on your console. 
+
+Question 3 
+**********
+  - Write a script inside of your "myCollector" module that passes the number 14 to your "myMultiplier" function that you imported from "myfirst" module and writes the returning value on a file called "results.txt". 
+    Note: The result you write on the file should read like this 
+      - "The value of 14 when passed through the myMultiplier function is (____) "  
+
+  - Write another script in the same module that passes the number 14 to your "myMultiplier" function that you imported from "mysecond" module. Write the returning value on the same file called "results.txt". Make sure the previous result is not removed as you do this. Also, make sure to add the new result on a new line   
